@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4a5859;
+    color: #5fa0eb;
+    text-align: center;
+}
+.container{
+    height: 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.box{
+    height: 22vmin;
+    width: 22vmin;
+    background-color: #F4B860;
+    color: #C83E4D;
+    border-radius: 1vw;
+    font-size: 3em;
+}
+button{
+    background-color: #ffffff;
+    padding: 5px;
+    font-size: 1.2em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    color: #000000;
+    gap: 5px;
+}
+
+//committ
